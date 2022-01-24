@@ -248,6 +248,41 @@ ul {
     }
 }
 
+/* About Section */
+
+.section-container {
+    min-height: 600px;
+    width: 100%;
+    margin: 0 auto 1.2rem auto;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) */
+}
+
+.section-header {
+    width: 100%;
+    min-height: 6.2rem;
+    background-color: white;
+    text-align: center;
+    color: var(--primary-color);
+
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
+}
+
+.section-content .about-image {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section-content .about-image img {
+    max-width: 100%;
+    
+}
+
+
 
 
 
