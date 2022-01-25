@@ -267,15 +267,15 @@ ul {
 }
 
 .section-content {
-    display: grid;
+    /* display: grid; */
 }
 
 /* About Section */
 
-.section-content, .about-content {
+.about-content {
     display: grid;
-    grid-template-columns: repeat(autofit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 100px;
     text-align: center;
     padding: 50px;
 }
@@ -285,12 +285,12 @@ ul {
     grid-template-rows: 1fr 1fr;
 }
 
-.section-content, .about-image {
+.about-image {
     max-width: 80%;
     margin: auto;
 }
 
-.section-content, .about-image img {
+.about-image img {
     max-width: 100%;
 }
 
@@ -301,10 +301,10 @@ ul {
 
 /* Services Section */
 
-.section-content, .services-content {
+.services-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(autofix, minmax(320px,1fr));
+    grid-template-rows: repeat(auto-fit, 1fr);
     gap: 15px;
     text-align: center;
     padding: 50px;
@@ -319,13 +319,25 @@ ul {
     background: url('/assets/images/leaves.jpg') no-repeat center center;
     border-radius: 50%;
     align-self: center;
+    align-content: center;
     margin: auto;
     height:300px;
     width:300px;
 }
 
 .services-content-item {
-    display: grid;
+    /* display: grid; */
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+    .services-content-image {
+        display: none;
+    }
+
+    .services-content {
+        grid-template-columns: 1fr
+    }
 }
 
 
