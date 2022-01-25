@@ -180,7 +180,7 @@ ul {
 /* Hero Section */
 
 .hero-container {
-    background: url('/assets/images/hero-image-medium.png') no-repeat right;
+    background: url('../images/hero-image-medium.png') no-repeat right;
     min-height: 600px;
     margin: 0 auto 1.2rem auto;
     display: grid;
@@ -266,10 +266,6 @@ ul {
     font-size: 1.5rem;
 }
 
-.section-content {
-    /* display: grid; */
-}
-
 /* About Section */
 
 .about-content {
@@ -316,17 +312,13 @@ ul {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    background: url('/assets/images/leaves.jpg') no-repeat center center;
+    background: url('../images/leaves.jpg') no-repeat center center;
     border-radius: 50%;
     align-self: center;
     align-content: center;
     margin: auto;
     height:300px;
     width:300px;
-}
-
-.services-content-item {
-    /* display: grid; */
 }
 
 /* For medium screen sizes from 950px wide and down */
