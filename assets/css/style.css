@@ -251,11 +251,10 @@ ul {
 /* Section Globals */
 
 .section-container {
-    min-height: 600px;
     width: 100%;
     margin: 0 auto 1.2rem auto;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) */
+    color: black;
+    font-weight: bold;
 }
 
 .section-header {
@@ -264,12 +263,11 @@ ul {
     background-color: white;
     text-align: center;
     color: var(--primary-color);
-
+    font-size: 1.5rem;
 }
 
 .section-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr))
 }
 
 /* About Section */
@@ -299,6 +297,35 @@ ul {
 .about-content-text {
     grid-row-start: 2;
     grid-row-end: 2;
+}
+
+/* Services Section */
+
+.section-content, .services-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(autofix, minmax(320px,1fr));
+    gap: 15px;
+    text-align: center;
+    padding: 50px;
+}
+
+.services-content-image {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url('/assets/images/leaves.jpg') no-repeat center center;
+    border-radius: 50%;
+    align-self: center;
+    margin: auto;
+    height:300px;
+    width:300px;
+}
+
+.services-content-item {
+    display: grid;
 }
 
 
