@@ -351,8 +351,6 @@ ul {
     grid-template-rows: 2fr 1fr;
     grid-row-start: 1;
     grid-row-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
 }
 
 /* .contact-text {
