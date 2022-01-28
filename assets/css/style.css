@@ -311,13 +311,12 @@ ul {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
-    border-radius: 50%;
     align-self: center;
     align-content: center;
     margin: auto;
-    height: 300px;
-    width: 300px;
-    background: url('../images/earth.png') no-repeat center center;
+    height: 250px;
+    width: 250px;
+    background: url('../images/natural-clean-icon-green.png') no-repeat center center;
     background-size: contain;
 }
 
