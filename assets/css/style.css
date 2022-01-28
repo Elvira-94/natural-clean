@@ -123,7 +123,7 @@ ul {
 .nav-toggler span::before,
 .nav-toggler span::after {
 
-    content: ''; 
+    content: '';
     position: absolute;
     width: 100%;
     height: 100%;
@@ -143,6 +143,7 @@ ul {
     .nav-toggler {
         display: flex;
     }
+
     .header .nav {
         position: absolute;
         left: 0;
@@ -153,25 +154,31 @@ ul {
         opacity: 0;
         visibility: hidden;
     }
+
     .header .nav ul li {
         display: block;
         margin: 0;
     }
-    .header #nav-check:checked ~ .nav {
+
+    .header #nav-check:checked~.nav {
         opacity: 1;
         visibility: visible;
     }
-    .header #nav-check:focus ~ .nav-toggler {
+
+    .header #nav-check:focus~.nav-toggler {
         box-shadow: 0 0 15px #000000;
     }
-    .header #nav-check:checked ~ .nav-toggler span {
+
+    .header #nav-check:checked~.nav-toggler span {
         background-color: transparent;
     }
-    .header #nav-check:checked ~ .nav-toggler span::before {
+
+    .header #nav-check:checked~.nav-toggler span::before {
         top: 0;
         transform: rotate(45deg);
     }
-    .header #nav-check:checked ~ .nav-toggler span::after {
+
+    .header #nav-check:checked~.nav-toggler span::after {
         top: 0;
         transform: rotate(-45deg);
     }
@@ -292,7 +299,7 @@ ul {
 }
 
 /* Services Section */
-.section-container{
+.section-container {
     padding-bottom: 20px;
 }
 
@@ -332,8 +339,111 @@ ul {
     }
 }
 
+/* Products Section */
+
+.section-container {
+    padding-bottom: 20px;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+    gap: 15px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.products-content-image-1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background: url('../images/lemon-essential-oil.png') no-repeat center center;
+    background-size: contain;
+}
+
+.products-content-image-2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: -2;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    align-self: center;
+    align-content: center;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    background: url('../images/universal-stone.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+
+
+/* FAQ Section */
+
+.faq-content-col {
+    padding-bottom: 20px;
+}
+
+.question-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    background-color: #738B56;
+    border-radius: 20px;
+}
+
+.question-title {
+    flex-grow: 1;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.close-section {
+    margin-left: 2rem;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.close-section img {
+    width: 25px;
+    height: auto;
+}
+
+.faq-content-col.active .close-section {
+    transform: rotate(180deg);
+}
+
+.answer-section {
+    line-height: 1.5;
+    background: #F2F2F2;
+    border-radius: 20px;
+    max-height: 0;
+    overflow: hidden;
+    padding: 0rem 2rem;
+    margin: 0;
+    transition: max-height 0.2s ease-out, margin 0.2s ease-out;
+}
+
+.answer-section p {
+    padding: 1rem 0;
+}
+
+.faq-content-col.active .answer-section {
+    max-height: 700px;
+    margin: 20px 0;
+}
+
 /* Contact Section */
-.section-container{
+.section-container {
     padding-bottom: 100px;
     text-align: center;
 }
@@ -411,72 +521,3 @@ ul {
     height: 100%;
     border: 0;
 }
-
-/* FAQ Section */
-
-.faq-content-col {
-    padding-bottom: 20px;
-}
-
-.question-header {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 1rem 2rem;
-    background-color: #738B56;
-    border-radius: 20px;
-}
-
-.question-title {
-    flex-grow: 1;
-    padding-right: 1rem;
-    font-weight: 500;
-}
-
-.close-section {
-    margin-left: 2rem;
-    transform: rotate(0deg);
-    transition: all 0.3s ease-in-out;
-}
-
-.close-section img {
-    width: 25px;
-    height: auto;
-}
-
-.faq-content-col.active .close-section {
-    transform: rotate(180deg);
-}
-
-.answer-section {
-    line-height: 1.5;
-    background: #F2F2F2;
-    border-radius: 20px;
-    max-height: 0;
-    overflow: hidden;
-    padding: 0rem 2rem;
-    margin: 0;
-    transition: max-height 0.2s ease-out, margin 0.2s ease-out;
-}
-
-.answer-section p {
-    padding: 1rem 0;
-}
-
-.faq-content-col.active .answer-section {
-    max-height: 700px;
-    margin: 20px 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
