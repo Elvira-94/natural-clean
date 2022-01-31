@@ -64,6 +64,33 @@ To demploy the site on GitHub pages, the following steps should be followed:
 
 6. Return to the **GitHub Pages** section to obtain the link to the deployed website.
 
+### How To Run This Site Project Locally
+
+To clone this site's project from GitHub, the following steps should be followed:
+
+1. On your GitHub page, go to your site's main page of your repository.
+
+2. Above your site's files, click the **Code** button.
+
+![alt](assets/images/README/github-screenshot-4.png)
+
+3. To clone your repository ussing HTTPS, click the copy clipboard symbol under "Clone with HTTPS".
+
+![alt](assets/images/README/github-screenshot-5.png)
+
+4. Open your local IDE terminal.
+
+5. Change the current working directory to the desired location for the cloned directory.
+
+6. Type ```git clone```, followed by the URL you copied earlier in Step 3.
+```console
+git clone https://github.com/Elvira-94/natural-clean.git
+```
+
+7. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
 
 ## Credits 
 
