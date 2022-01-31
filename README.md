@@ -30,4 +30,11 @@ The landing page includes a photograph of a green leaf, with text overlay provid
 
 The intention of the green leaf hero image is to show to the client Natural Clean's focus on being environmentally friendly, while aslso staying simple enough to keep a clean site aesthetic.
 
+- __About Us Section__
+
+The About Us Section will show the user the advantages of booking our green cleaning services as well as the advantages of Natural Clean's offering of 24/7 call-outs no matter the time or day to deliver a range of cleaning services.
+
+The user will recognise the value of booking cleaning services that are exclusively non-toxic and eco-friendly in Dublin. This should persuade the user to consider using our Natural Clean site as their eco-consious, one-stop shop for any of their hypoallergenic cleaning needs.
+
+
 
