@@ -14,6 +14,39 @@ The site will be targeted towards commercial and residential clients, such as ho
 
 Natural Clean allows people to quickly and easily arrange to have their property cleaned in an environmentally friendly way.
 
+# User Experience
+
+## Target Audience
+
+* Users that are looking for a professional yet eco-friendly cleaning service to come and clean their properties.
+* Users that are asthma sufferers, pet-owners or have allergies that require a chemical and toxic-free cleaning service.
+
+## User Stories
+
+* As a user, I can determine the site's purpose immediately.
+* As a user, I can identify the sections on the page. 
+* As a user, I can easily and intuitively navigate the site's content.
+* As a user, I can feel confident when contacting the company for a cleaning quote or for more information. 
+* As a user, I want to view the company's opening hours so that I can plan to make an appointment for my property to be cleaned.
+
+## Site Aims
+
+## Design Wireframes
+
+## Site Structure
+
+## Design Choices
+
+### Colour Scheme
+
+![Colour palette of 4 colours](assets/images/README/colour-palette-of-5-colours.jpeg)
+
+![Colour scheme](assets/images/README/adobe-color-scheme.png)
+
+### Typography
+
+For this website, one main font was used throughout. To give a clean modern feel, ['Questrial'](https://fonts.google.com/specimen/Questrial?query=questrial#standard-styles) designed by Joe Prince & Laura Meseguer was used for both the body text and the headings. This font defaults back to to 'Arial, Helvetica, sans-serif.' The Questrial typeface have an easy-to-read feel to them, and the full circle curves on many characters adds a refreshingly seamless look to the design while still keeping it in line with the clean style of the site by utilising letter spacing and line heights.
+
 ## Features
 
 ### Existing Features
