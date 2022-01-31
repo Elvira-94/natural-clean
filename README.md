@@ -81,6 +81,16 @@ This section will be valuable to the user to see firsthand what natural cleaning
 
 ### Media
 
+- [Adobe Color](https://color.adobe.com/color-theme-15638019#) to reference colours for this website that would look well together.
+
+- [Brandmark](https://app.brandmark.io/) to design and create the Natural Clean Logo for this site.
+
+- [Unsplash](https://unsplash.com/) to source professionaly high-resolution images for this website.
+
+- [PNGEgg](https://www.pngegg.com/) to source high quality png images with a transparent background for this site.
+
+- [Gimp 2.0](https://www.gimp.org/) to edit company logo.
+
 
 
 
