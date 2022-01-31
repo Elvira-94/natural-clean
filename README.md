@@ -42,6 +42,29 @@ The Products Section will detail the cleaning materials used and include useful 
 
 This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
 
+## Deployment
+
+To demploy the site on GitHub pages, the following steps should be followed:
+
+1. On your Github page, go to your site's repository.
+
+2. Under your repository name, click **Settings**.
+
+![alt](assets/images/README/github-screenshot-1.png)
+
+3. Click **Pages**, in the left sidebar.
+
+![alt](assets/images/README/github-screenshot-2.png)
+
+4. Under **"GitHub Pages"**, select a publishing source from the None or Branch drop-down menu box. Then click **Save**.
+
+![alt](assets/images/README/github-screenshot-3.png)
+
+5. The page will automatically refresh, indicating that the website has now been launched.
+
+6. Return to the **GitHub Pages** section to obtain the link to the deployed website.
+
+
 ## Credits 
 
 ### Content
