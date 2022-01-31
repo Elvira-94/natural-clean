@@ -42,5 +42,46 @@ The Products Section will detail the cleaning materials used and include useful 
 
 This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
 
+## Credits 
+
+### Content
+
+- HTML5 and CSS3 programming languages to create the content, structure and styles for this website.
+
+- Javascript progamming language needed to make a FAQ accordian menu resposive on mobile devices.
+
+- [Font Awesome](https://fontawesome.com/) for the social media icons in the footer.
+
+- [Google Fonts](https://fonts.google.com/) to import font style.
+
+- [Gitpod](https://www.gitpod.io/) to create the project code that can be launched from my GitHyb page.
+
+- [GitHub](https://github.com/) to host the repository and associated files for this project and the the deployment of the website.
+
+- [VS Code](https://code.visualstudio.com/) for IDE local deployment.
+
+
+- [Navbar Tutorial Youtube](https://youtu.be/RqM5Wzuil5U) to add responsive Navbar without using javascript to site following instructions by The WebShala.
+
+- [CSS Grid Tutorial Youtube](https://youtu.be/pMVO1OPfVJ8) & [CSS Responsive Layout Tutorial Youtube](https://youtu.be/moBhzSC455o) to build a responsive layout throughout this site.
+
+- [FAQ Accordian Article](https://dev.to/thatanjan/how-to-build-a-beautiful-faq-accordion-menu-with-html-css-and-javascript-2p68) to add HTML/CSS/Javascript FAQ accordian menu to site following instructions by Anjan Shomooder.
+
+- [Codepip Flexbox Froggy Game](https://codepip.com/games/flexbox-froggy/) to solidify learning flexbox for this site recommended by #learn-css thread on Slack.
+
+- [CSS Grid Garden Game](https://cssgridgarden.com/) to solidify learning CSS grid for this site recommended by #learn-css thread on Slack.
+
+- [W3Schools](https://www.w3schools.com/) to help learn and understand vital coding concepts used to help build this site.
+
+- [Balsamiq](https://balsamiq.com/) to create wireframes.
+
+- [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) to add contact form section to site following instructions from love running walkthrough by Code Institute.
+
+- [HTML & CSS Tutorial Youtube](https://youtu.be/D-h8L5hgW-w) to add map iframe to contact section following instructions by Gary Simon on behalf of [DesignCourse](https://designcourse.com/).
+
+### Media
+
+
+
 
 
