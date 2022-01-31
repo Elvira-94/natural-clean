@@ -16,6 +16,8 @@ Natural Clean allows people to quickly and easily arrange to have their property
 
 ## Features
 
+### Existing Features
+
 - __Navigation Bar__
 
 The fully responsive navigation bar includes links to all sections of the site. On the left side of the navigation bar, the company logo is presented, which itself links to the homepage of the site.
@@ -41,6 +43,14 @@ The user will recognise the value of booking cleaning services that are exclusiv
 The Products Section will detail the cleaning materials used and include useful supporting images to what the products will look like such as the 'Universal Stone Mulit-Purpose Cleaner' image and the 'Lemon Essential Oil' image.
 
 This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
+
+- __FAQ Section__
+
+- __Contact Section__
+
+- __The Footer__
+
+### Features Left to Implement
 
 ## Testing
 
