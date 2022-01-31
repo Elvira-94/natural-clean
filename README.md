@@ -64,6 +64,8 @@ To demploy the site on GitHub pages, the following steps should be followed:
 
 6. Return to the **GitHub Pages** section to obtain the link to the deployed website.
 
+Further reading and troubleshooting on deploying a site on GitHub pages can be found [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
 ### How To Run This Site Project Locally
 
 To clone this site's project from GitHub, the following steps should be followed:
