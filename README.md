@@ -36,5 +36,11 @@ The About Us Section will show the user the advantages of booking our green clea
 
 The user will recognise the value of booking cleaning services that are exclusively non-toxic and eco-friendly in Dublin. This should persuade the user to consider using our Natural Clean site as their eco-consious, one-stop shop for any of their hypoallergenic cleaning needs.
 
+- __Products Section__
+
+The Products Section will detail the cleaning materials used and include useful supporting images to what the products will look like such as the 'Universal Stone Mulit-Purpose Cleaner' image and the 'Lemon Essential Oil' image.
+
+This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
+
 
 
