@@ -157,7 +157,10 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 
 - [PNGEgg](https://www.pngegg.com/) to source high quality png images with a transparent background for this site.
 
+- [Universal Stone Multi-Purpose Cleaner Image](https://www.ptpa.com/product/Universal-Stone-?quantityPerPage=all&col=rating&d=asc&reviewType=all) source used to show Universal Stone Multi-Purpose Cleaner in the products section.
+
 - [Gimp 2.0](https://www.gimp.org/) to edit company logo.
+
 
 
 
