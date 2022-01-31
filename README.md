@@ -42,6 +42,12 @@ The Products Section will detail the cleaning materials used and include useful 
 
 This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
 
+## Testing
+
+### Validator Testing
+
+### Unfixed Bugs
+
 ## Deployment
 
 To demploy the site on GitHub pages, the following steps should be followed:
