@@ -467,12 +467,24 @@ ul {
 .contact-content-col {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 50px;
 }
 
 .contact-box-right {
-    min-height: 400px;
+    height:100%;
     width: 100%;
+    display: grid;
+
+    /* Automatic row sizing from: https://stackoverflow.com/questions/49701408/css-grid-auto-height-rows-sizing-to-content/49701488 */
+    grid-template-rows: minmax(min-content, max-content);
+}
+
+.contact-address-container {
+    justify-self: center;
+    text-align: center;
+}
+
+.contact-table-item {
+    text-align: center;
 }
 
 .contact-content-text {

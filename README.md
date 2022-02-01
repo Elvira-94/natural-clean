@@ -254,6 +254,8 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 
 * [HubSpot](https://blog.hubspot.com/marketing/hero-image) to understand hero image best practices around site sizing.
 
+* [StackOverflow](https://stackoverflow.com/questions/49701408/css-grid-auto-height-rows-sizing-to-content/49701488) to add automatic height sizing of CSS grid rows.
+
 ### Media
 
 * [Adobe Color](https://color.adobe.com/color-theme-15638019#) to reference colours for this website that would look well together.
