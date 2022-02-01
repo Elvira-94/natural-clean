@@ -56,7 +56,7 @@ ul {
 /* header */
 /* header layout influenced from https://youtu.be/RqM5Wzuil5U */
 .header {
-    background-color: white;
+    background-color: #FFF;
     padding: 12px 0;
     position: relative;
 }
@@ -81,7 +81,7 @@ ul {
 }
 
 .header .nav {
-    background-color: white;
+    background-color: #FFF;
 }
 
 .header .nav ul li {
@@ -217,7 +217,7 @@ ul {
 
 .info-box .hero-cta {
     background: var(--primary-color);
-    color: white;
+    color: #FFF;
     text-decoration: none;
     padding: .6rem 1.3rem;
     font-size: 1.4rem;
@@ -228,14 +228,14 @@ ul {
 }
 
 .info-box .hero-cta a {
-    color: white;
+    color: #FFF;
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
     .hero-container {
         background: none;
-        background-color: white;
+        background-color: #FFF;
         display: block;
     }
 
@@ -251,7 +251,7 @@ ul {
 .section-container {
     width: 100%;
     margin: 0 auto 1.2rem auto;
-    color: black;
+    color: #000;
     font-weight: bold;
 }
 
@@ -494,7 +494,7 @@ ul {
 
 .contact-content-text-header {
     text-align: center;
-    color: black;
+    color: #000;
     margin-bottom: 20px;
 }
 
@@ -503,7 +503,7 @@ ul {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 2px;
 }
 
@@ -514,7 +514,7 @@ ul {
 .text-area {
     margin: 0;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #000;
     border-radius: 2px;
 }
 
