@@ -165,6 +165,7 @@ Finally the company logo itself also takes the user back to the home page and th
 * [Github](https://github.com/) - to host and deploy the website.
 * [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
 * [Compressor](https://compressor.io/) - to compress the images.
+* [Favicon](https://favicon.io/) - to create the favicon.
 * [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) - to test the contrast and accessibility of the website using an extension installed on the Google browser.
 * [a11y](https://color.a11y.com/Contrast/) - to test the contrast and accessibility of the website.
 * [VS Code](https://code.visualstudio.com/) - to test the local deployment of the website.
@@ -228,56 +229,45 @@ git clone https://github.com/Elvira-94/natural-clean.git
 Further reading and troubleshooting on cloning a repository from GitHub can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
 
-## Credits 
+# Credits 
 
 ### Content
 
-- HTML5 and CSS3 programming languages to create the content, structure and styles for this website.
+* [Font Awesome](https://fontawesome.com/) for the social media icons in the footer.
 
-- Javascript progamming language needed to make a FAQ accordian menu resposive on mobile devices.
+* [Google Fonts](https://fonts.google.com/) to import font style.
 
-- [Font Awesome](https://fontawesome.com/) for the social media icons in the footer.
+* [Navbar Tutorial Youtube](https://youtu.be/RqM5Wzuil5U) to add responsive Navbar without using javascript to site following instructions by The WebShala.
 
-- [Google Fonts](https://fonts.google.com/) to import font style.
+* [CSS Grid Tutorial Youtube](https://youtu.be/pMVO1OPfVJ8) & [CSS Responsive Layout Tutorial Youtube](https://youtu.be/moBhzSC455o) to build a responsive layout throughout this site.
 
-- [Gitpod](https://www.gitpod.io/) to create the project code that can be launched from my GitHyb page.
+* [FAQ Accordian Article](https://dev.to/thatanjan/how-to-build-a-beautiful-faq-accordion-menu-with-html-css-and-javascript-2p68) to add HTML/CSS/Javascript FAQ accordian menu to site following instructions by Anjan Shomooder.
 
-- [GitHub](https://github.com/) to host the repository and associated files for this project and the the deployment of the website.
+* [Codepip Flexbox Froggy Game](https://codepip.com/games/flexbox-froggy/) to solidify learning flexbox for this site recommended by #learn-css thread on Slack.
 
-- [VS Code](https://code.visualstudio.com/) for IDE local deployment.
+* [CSS Grid Garden Game](https://cssgridgarden.com/) to solidify learning CSS grid for this site recommended by #learn-css thread on Slack.
 
+* [W3Schools](https://www.w3schools.com/) to help learn and understand vital coding concepts used to help build this site.
 
-- [Navbar Tutorial Youtube](https://youtu.be/RqM5Wzuil5U) to add responsive Navbar without using javascript to site following instructions by The WebShala.
+* [Balsamiq](https://balsamiq.com/) to create wireframes.
 
-- [CSS Grid Tutorial Youtube](https://youtu.be/pMVO1OPfVJ8) & [CSS Responsive Layout Tutorial Youtube](https://youtu.be/moBhzSC455o) to build a responsive layout throughout this site.
+* [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) to add contact form section to site following instructions from love running walkthrough by Code Institute.
 
-- [FAQ Accordian Article](https://dev.to/thatanjan/how-to-build-a-beautiful-faq-accordion-menu-with-html-css-and-javascript-2p68) to add HTML/CSS/Javascript FAQ accordian menu to site following instructions by Anjan Shomooder.
-
-- [Codepip Flexbox Froggy Game](https://codepip.com/games/flexbox-froggy/) to solidify learning flexbox for this site recommended by #learn-css thread on Slack.
-
-- [CSS Grid Garden Game](https://cssgridgarden.com/) to solidify learning CSS grid for this site recommended by #learn-css thread on Slack.
-
-- [W3Schools](https://www.w3schools.com/) to help learn and understand vital coding concepts used to help build this site.
-
-- [Balsamiq](https://balsamiq.com/) to create wireframes.
-
-- [CI Love Running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/4d85cd1a2c57485abbd8ccec8c00732c/) to add contact form section to site following instructions from love running walkthrough by Code Institute.
-
-- [HTML & CSS Tutorial Youtube](https://youtu.be/D-h8L5hgW-w) to add map iframe to contact section following instructions by Gary Simon on behalf of [DesignCourse](https://designcourse.com/).
+* [HTML & CSS Tutorial Youtube](https://youtu.be/D-h8L5hgW-w) to add map iframe to contact section following instructions by Gary Simon on behalf of [DesignCourse](https://designcourse.com/).
 
 ### Media
 
-- [Adobe Color](https://color.adobe.com/color-theme-15638019#) to reference colours for this website that would look well together.
+* [Adobe Color](https://color.adobe.com/color-theme-15638019#) to reference colours for this website that would look well together.
 
-- [Brandmark](https://app.brandmark.io/) to design and create the Natural Clean Logo for this site.
+* [Brandmark](https://app.brandmark.io/) to design and create the Natural Clean Logo for this site.
 
-- [Unsplash](https://unsplash.com/) to source professionaly high-resolution images for this website.
+* [Unsplash](https://unsplash.com/) to source professionaly high-resolution images for this website.
 
-- [PNGEgg](https://www.pngegg.com/) to source high quality png images with a transparent background for this site.
+* [PNGEgg](https://www.pngegg.com/) to source high quality png images with a transparent background for this site.
 
-- [Universal Stone Multi-Purpose Cleaner Image](https://www.ptpa.com/product/Universal-Stone-?quantityPerPage=all&col=rating&d=asc&reviewType=all) source used to show Universal Stone Multi-Purpose Cleaner in the products section.
+* [Universal Stone Multi-Purpose Cleaner Image](https://www.ptpa.com/product/Universal-Stone-?quantityPerPage=all&col=rating&d=asc&reviewType=all) source used to show Universal Stone Multi-Purpose Cleaner in the products section.
 
-- [Gimp 2.0](https://www.gimp.org/) to edit company logo.
+* [Gimp 2.0](https://www.gimp.org/) to edit company logo.
 
 
 
