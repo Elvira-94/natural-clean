@@ -255,6 +255,8 @@ Further reading and troubleshooting on cloning a repository from GitHub can be f
 
 * [HTML & CSS Tutorial Youtube](https://youtu.be/D-h8L5hgW-w) to add map iframe to contact section following instructions by Gary Simon on behalf of [DesignCourse](https://designcourse.com/).
 
+* [HubSpot](https://blog.hubspot.com/marketing/hero-image) to understand hero image best practices around site sizing.
+
 ### Media
 
 * [Adobe Color](https://color.adobe.com/color-theme-15638019#) to reference colours for this website that would look well together.

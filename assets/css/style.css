@@ -14,7 +14,15 @@
 body {
     line-height: 1.5;
     font-family: 'Questrial', Arial, Helvetica, sans-serif;
-    background-color: #FFFFFF;
+    background-color: #FFF;
+    /* 
+    Line below is to keep the site contained in a central position on the screen within a max boundary of 1600px 
+    On a ultra-wide monitor, we dont want the site stretched far across the monitor as it would not be good for a 
+    user's neck to have to keep looking from one side of the screen to another
+
+    See 'Hero Image Dimensions - 1. Full-Screen and Banner Image Dimensions'  
+    https://blog.hubspot.com/marketing/hero-image
+    */
     max-width: 1600px;
     margin: 0 auto;
 }
