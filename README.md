@@ -115,6 +115,22 @@ This section will be valuable to the user to see firsthand what natural cleaning
 
 - __Contact Section__
 
+The Contact Section icluding the contact form and iframe map of the company's address was created with simplicity in mind. The contact form includes a 'Get in Touch With Us heading and 3 input fields. These input fields are: Name, Email and Send Us A Message. 
+
+The Contact Section is fully responsive and places the map image below the contact form when the device width is insufficient. The form will be centralised on the page at this point. This helps the user easily get a quote or send a message of any questions they have with ease of mind.
+
+<details><summary><b>Contact Section Desktop Image</b></summary>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151998368-dab1f7cf-14b2-4f68-85ae-a643b45f9780.png" width="50%" height="50%" alt="Contact Section Desktop image"></p></details><br />
+
+<details><summary><b>Contact Section Responsive Image</b></summary>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151997801-f2507f24-3494-4326-b709-610f0d9cd8d2.png" width="30%" height="30%" alt="Contact Section Responsive image"></p></details><br />
+
+
+
+
+
 - __The Footer__
 
 ### Features Left to Implement
