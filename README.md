@@ -35,7 +35,7 @@ You can view the live site here - <a href="https://elvira-94.github.io/natural-c
 
 ## Site Structure
 
-The Natural Clean website is a one-page website with 6 navigation links for the visitor to use. The Home Page is the default loading page, and the sections following it are the About, Services, Products, FAQ's and Contact. The pages are all accessible primarily through the navigation menu, but the user can also press on the burger menu located on both the right or left side of the screen depending on which smaller device they're using which will allow them to view a dropdown menu of the site and visit these sections in the order listed above. This will help the user have the option of not scrolling down the website to visit these sections on different devices.
+The Natural Clean website is a one-page website with 6 navigation links for the visitor to use. The Home Page is the default loading page, and the sections following it are the About, Services, Products, FAQ's and Contact. The pages are all accessible primarily through the navigation menu, but the user can also press on the burger menu located on the right side of the screen if they are using a device with a small screen size. Clicking on the burger menu will allow them to view a dropdown menu of the site and visit these sections in the order listed above. This will help the user have the option of not scrolling down the website to visit these sections on different devices.
 
 ## Design Choices
 
@@ -86,7 +86,7 @@ The intention of the green leaf hero image is to show to the client Natural Clea
 
 <details><summary><b>Landing Page Image</b></summary>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151990333-1e3ab3fe-bfde-4834-ab74-a4b11969e525.png" width="40%" height="40%" alt="Landing page image"></p></details><br />
+<p align="center"><img src="docs/images/landing-page.png" width="80%" height="80%" alt="Landing page image"></p></details><br />
 
 - __About Us Section__
 
@@ -96,7 +96,17 @@ The user will recognise the value of booking cleaning services that are exclusiv
 
 <details><summary><b>About Us Image</b></summary>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151991236-334f6884-bb48-4fa9-b471-2037f00baaa5.png" width="40%" height="40%" alt="About us image"></p></details><br />
+<p align="center"><img src="docs/images/about-us.png" width="80%" height="80%" alt="About us image"></p></details><br />
+
+- __Services Section__
+
+The Services Section will provide the user with a range of services offered by Natural Clean. The services will be displayed in a grid format around a picture of the Natural Clean logo. 
+
+The value of this section is to allow the user to know what they can request from Natural Clean and what the request consists of. 
+
+<details><summary><b>Services Section Image</b></summary>
+
+<p align="center"><img src="docs/images/services.png" width="80%" height="80%" alt="Services section image"></p></details><br />
 
 - __Products Section__
 
@@ -106,9 +116,17 @@ This section will be valuable to the user to see firsthand what natural cleaning
 
 <details><summary><b>Products Section Image</b></summary>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151991939-d178e9b1-db1f-449b-9608-e58cd0157ee0.png" width="40%" height="40%" alt="Products section image"></p></details><br />
+<p align="center"><img src="docs/images/products.png" width="80%" height="80%" alt="Products section image"></p></details><br />
 
 - __FAQ Section__
+
+The FAQ section will answer some of the more common questions that Natural Clean receive from their customers. The questions will be displayed as a list of accordion styled items, and once clicked, the answer to the question that was clicked, will show on the screen under the question. If clicked again, the answer will revert back to being hidden. 
+
+The value of this section is to provide Natural Clean's users with answers to questions they may have before they need to ask.
+
+<details><summary><b>FAQ Section Image</b></summary>
+
+<p align="center"><img src="docs/images/faq.png" width="80%" height="80%" alt="FAQ section image"></p></details><br />
 
 - __Contact Section__
 
@@ -118,11 +136,11 @@ The Contact Section is fully responsive and places the map image below the conta
 
 <details><summary><b>Contact Section Desktop Image</b></summary>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151998368-dab1f7cf-14b2-4f68-85ae-a643b45f9780.png" width="50%" height="50%" alt="Contact Section Desktop image"></p></details><br />
+<p align="center"><img src="docs/images/contact-desktop.png" width="80%" height="80%" alt="Contact Section Desktop image"></p></details><br />
 
 <details><summary><b>Contact Section Responsive Image</b></summary>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151997801-f2507f24-3494-4326-b709-610f0d9cd8d2.png" width="30%" height="30%" alt="Contact Section Responsive image"></p></details><br />
+<p align="center"><img src="docs/images/contact-responsive.png" width="50%" height="50%" alt="Contact Section Responsive image"></p></details><br />
 
 - __The Footer__
 
@@ -131,6 +149,10 @@ The Footer contains quick links, social media links and and the company logo wit
 The social links to Facebook, Twitter, Instagram and Youtube are there for educational purposes of this project and will take the user to the home page of each respected site. If this site were to be published outside of this project, they would be altered to re-direct the user to the appropriate Natural Clean social media pages.
 
 Finally the company logo itself also takes the user back to the home page and they can easily see what hours the business operates for which was an no-brainer when thinking of the users experience being a positive one.
+
+<details><summary><b>Footer Section Image</b></summary>
+
+<p align="center"><img src="docs/images/footer.png" width="80%" height="80%" alt="Footer section image"></p></details><br />
 
 * ## Features Left to Implement
 
@@ -170,7 +192,25 @@ Finally the company logo itself also takes the user back to the home page and th
 
 ## Testing
 
-### Validator Testing
+* ### Code Validation
+
+    * The Natural Clean website has undergone extensive testing both manually and via testing tools. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/), the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/). 3 minor errors were found on the index.html when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below.<br /><br />
+
+* ### HTML Validation Image With Errors
+
+    ![HTML Validation](docs/images/html-validation-errors.png)
+
+* ### HTML Validation Image
+
+    ![HTML Validation](docs/images/html-validation.png)
+
+* ### CSS Validation Image
+
+    ![CSS Validation](docs/images/css-validation.png)
+
+* ### JS Validation Image
+
+    ![JS Validation](docs/images/js-validation.png)
 
 ### Unfixed Bugs
 
@@ -182,15 +222,15 @@ To demploy the site on GitHub pages, the following steps should be followed:
 
 2. Under your repository name, click **Settings**.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993205-32179f28-6725-4d68-a044-4c56185ae7fa.png" width="50%" height="50%" alt="Github screenshot image 1"></p></details><br />
+<p align="center"><img src="docs/images/github-screenshot-1.png" width="50%" height="50%" alt="Github screenshot image 1"></p></details><br />
 
 3. Click **Pages**, in the left sidebar.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993207-b27395b5-9130-441c-ab37-2abc9f333784.png" width="50%" height="50%" alt="Github screenshot image 2"></p></details><br />
+<p align="center"><img src="docs/images/github-screenshot-2.png" width="50%" height="50%" alt="Github screenshot image 2"></p></details><br />
 
 4. Under **"GitHub Pages"**, select a publishing source from the None or Branch drop-down menu box. Then click **Save**.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993208-9dcc9884-0d00-4158-85f9-dbb99b37deb2.png" width="50%" height="50%" alt="Github screenshot image 3"></p></details><br />
+<p align="center"><img src="docs/images/github-screenshot-3.png" width="50%" height="50%" alt="Github screenshot image 3"></p></details><br />
 
 5. The page will automatically refresh, indicating that the website has now been launched.
 
@@ -206,11 +246,11 @@ To clone this site's project from GitHub, the following steps should be followed
 
 2. Above your site's files, click the **Code** button.
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993212-2a98e8d3-4a09-4a5c-bd63-056fa97222ba.png" width="50%" height="50%" alt="Github screenshot image 4"></p></details><br />
+<p align="center"><img src="docs/images/github-screenshot-4.png" width="50%" height="50%" alt="Github screenshot image 4"></p></details><br />
 
 3. To clone your repository ussing HTTPS, click the copy clipboard symbol under "Clone with HTTPS".
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993215-b3be37c4-bdcb-4696-96be-06b8777b1d41.png" width="50%" height="50%" alt="Github screenshot image 5"></p></details><br />
+<p align="center"><img src="docs/images/github-screenshot-5.png" width="50%" height="50%" alt="Github screenshot image 5"></p></details><br />
 
 4. Open your local IDE terminal.
 
