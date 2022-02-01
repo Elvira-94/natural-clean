@@ -28,10 +28,11 @@ You can view the live site here - <a href="https://elvira-94.github.io/natural-c
 
 ## User Stories
 
-* As a user, I can determine the site's purpose immediately.
-* As a user, I can identify the sections on the page. 
-* As a user, I can easily and intuitively navigate the site's content.
-* As a user, I can feel confident when contacting the company for a cleaning quote or for more information. 
+* As a user, I want to feel immediately that the site is clean and environmental once I open the homepage.
+* As a user, I want to be able learn about the company and what they stand for.
+* As a user, I want to be able to view the types of cleaning services on offer so that I can book the right service for my property.
+* As a user, I want to be able to quickly identify what kind of cleaning materials are used so that I recieve an eco-friendly service.
+* As a user, I want to be able to contact the company for a cleaning quote or for more information. 
 * As a user, I want to view the company's opening hours so that I can plan to make an appointment for my property to be cleaned.
 
 ## Site Aims
