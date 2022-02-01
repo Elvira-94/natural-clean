@@ -156,6 +156,20 @@ Finally the company logo itself also takes the user back to the home page and th
 * A company cleaning app to download on iOS or android would be located in the navigation bar.
 * This would redirect the user to a new page where they could download the app on their phone and register or log-in to schedule bookings via the app themselves.
 
+# Technologies Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - to provide the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - to provide the styling for the website.
+* [Javascript](https://en.wikipedia.org/wiki/HTML) - to provide the responsive FAQ accordion menu for the website.
+* [Gitpod](https://www.gitpod.io/) - to create and edit the website's code.
+* [Github](https://github.com/) - to host and deploy the website.
+* [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
+* [Compressor](https://compressor.io/) - to compress the images.
+* [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) - to test the contrast and accessibility of the website using an extension installed on the Google browser.
+* [a11y](https://color.a11y.com/Contrast/) - to test the contrast and accessibility of the website.
+* [VS Code](https://code.visualstudio.com/) - to test the local deployment of the website.
+
+
 ## Testing
 
 ### Validator Testing
