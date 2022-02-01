@@ -107,6 +107,10 @@ The Products Section will detail the cleaning materials used and include useful 
 
 This section will be valuable to the user to see firsthand what natural cleaning agents will be used to put clients minds at ease that only products that are safe for the planet and safe for their health will be used.
 
+<details><summary><b>Products Section Image</b></summary>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151991939-d178e9b1-db1f-449b-9608-e58cd0157ee0.png" width="40%" height="40%" alt="Products section image"></p></details><br />
+
 - __FAQ Section__
 
 - __Contact Section__
