@@ -431,13 +431,15 @@
     <!-- Font awesome script -->
     <script src="https://kit.fontawesome.com/7e02640559.js" crossorigin="anonymous"></script>
     <script>
-        const faqSections = document.querySelectorAll('.faq-content-col')
+        /*jshint esversion: 6 */
+
+        const faqSections = document.querySelectorAll('.faq-content-col');
 
         faqSections.forEach(faqSection => {
             faqSection.addEventListener('click', () => {
-                faqSection.classList.toggle('active')
-            })
-        })
+                faqSection.classList.toggle('active');
+            });
+        });
     </script>
 </body>
 
