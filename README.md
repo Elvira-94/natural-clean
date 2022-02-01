@@ -70,21 +70,26 @@ The goal of the responsive burger menu is to provide a clutter free presentation
 
 <details><summary><b>Navigation Bar Desktop Image</b></summary>
 
-![Navbar Desktop Image](assets/readme-images/nav-bar-desktop-image.png)</details><br />
+<p align="center"><img src="assets/readme-images/nav-bar-desktop-image.png" width="80%" height="80%" alt="Navbar desktop image"></p></details><br />
 
 <details><summary><b>Navigation Bar Responsive Image</b></summary>
 
-![Navbar Responsive Image](assets/readme-images/nav-bar-responsive-image.jpeg)</details><br />
+<p align="center"><img src="assets/readme-images/nav-bar-responsive-image.jpeg" width="80%" height="80%" alt="Navbar responsive image"></p></details><br />
 
 <details><summary><b>Navigation Bar Responsive Dropdown Menu Image</b></summary>
 
-![Navbar Responsive Dropdown Menu Image](assets/readme-images/nav-bar-responsive-open.png)</details><br />
+<p align="center"><img src="assets/readme-images/nav-bar-responsive-open.png" width="50%" height="50%" alt="Navbar responsive dropdown menu image"></p></details><br />
+
 
 - __The Landing Page Image__
 
 The landing page includes a photograph of a green leaf, with text overlay providing the client with a brief introduction to what Natural Clean is. Within this text overlay, there is also a call to action button provided, allowing the user to navigate to the contact form, allowing them to quickly book our service.
 
 The intention of the green leaf hero image is to show to the client Natural Clean's focus on being environmentally friendly, while aslso staying simple enough to keep a clean site aesthetic.
+
+<details><summary><b>Landing Page Image</b></summary>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151990333-1e3ab3fe-bfde-4834-ab74-a4b11969e525.png" width="40%" height="40%" alt="Landing page image"></p></details><br />
 
 - __About Us Section__
 
