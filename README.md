@@ -63,6 +63,18 @@ On the right side of the navigation bar, links to all sections of the site are p
 
 The goal of the responsive burger menu is to provide a clutter free presentation of the site to the client. On a smaller screen size, having many navigation links could be distracting and reduce the clean aesthetic of the site.
 
+<details><summary><b>Navigation Bar Desktop Image</b></summary>
+
+![Navbar Desktop Image](assets/readme-images/nav-bar-desktop-image.png)</details><br />
+
+<details><summary><b>Navigation Bar Responsive Image</b></summary>
+
+![Navbar Responsive Image](assets/readme-images/nav-bar-responsive-image.jpeg)</details><br />
+
+<details><summary><b>Navigation Bar Responsive Dropdown Menu Image</b></summary>
+
+![Navbar Responsive Dropdown Menu Image](assets/readme-images/nav-bar-responsive-open.png)</details><br />
+
 - __The Landing Page Image__
 
 The landing page includes a photograph of a green leaf, with text overlay providing the client with a brief introduction to what Natural Clean is. Within this text overlay, there is also a call to action button provided, allowing the user to navigate to the contact form, allowing them to quickly book our service.
