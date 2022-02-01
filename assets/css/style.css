@@ -559,6 +559,11 @@ ul {
     height: 100%;
 }
 
+.quick-links li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .social-links ul li {
     display: inline;
 }
