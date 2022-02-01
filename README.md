@@ -1,5 +1,5 @@
 
-<img src="assets/images/natural-clean-logo-horizontal.png" width="300px">
+<p align="center"><img src="assets/images/natural-clean-logo-horizontal.png" width="50%" height="50%" alt="Thank you for visiting my README"></p>
 
 # Natural Clean
 
@@ -16,6 +16,8 @@ The site will be targeted towards commercial and residential clients, such as ho
 Natural Clean allows people to quickly and easily arrange to have their property cleaned in an environmentally friendly way.
 
 You can view the live site here - <a href="https://elvira-94.github.io/natural-clean/" target="_blank" rel="noopener">Natural Clean</a>
+
+
 
 # User Experience
 
