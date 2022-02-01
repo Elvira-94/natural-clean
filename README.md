@@ -135,7 +135,26 @@ The social links to Facebook, Twitter, Instagram and Youtube are there for educa
 
 Finally the company logo itself also takes the user back to the home page and they can easily see what hours the business operates for which was an no-brainer when thinking of the users experience being a positive one.
 
-### Features Left to Implement
+* ## Features Left to Implement
+
+* ### Log-in
+
+* Allow the user to log in and create an account on the website. 
+* The log in option would be located in the navigation bar and would redirect the user to a new page where they could enter their details and register an account.
+
+* ### Testimonial Section
+
+* A Testimonial section to highlight positive feedback regarding our services.
+* This would be shown in the form of multiple 'cards' and would include a quote from the user, the user's name and a photograph of the user if they choose to provide one.
+
+* ### Newsletter Section
+
+* A basic newsletter section that allows the user to opt-in to monthly or bi-weekly emails from Natural Clean about the greatest cleaning hacks, special promotions and the business in general.
+
+* ### Cleaning Mobile App
+
+* A company cleaning app to download on iOS or android would be located in the navigation bar.
+* This would redirect the user to a new page where they could download the app on their phone and register or log-in to schedule bookings via the app themselves.
 
 ## Testing
 
