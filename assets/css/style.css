@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #2D3F2C;
+    --min-supported-width: 20rem;
 }
 
 * {
@@ -150,7 +151,7 @@ ul {
     top: 6px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 59.4rem) {
     .nav-toggler {
         display: flex;
     }
@@ -177,7 +178,7 @@ ul {
     }
 
     .header #nav-check:focus~.nav-toggler {
-        box-shadow: 0 0 15px #000000;
+        box-shadow: 0 0 1rem #000000;
     }
 
     .header #nav-check:checked~.nav-toggler span {
@@ -199,15 +200,15 @@ ul {
 
 .hero-container {
     background: url('../images/hero-image-medium.png') no-repeat right;
-    min-height: 600px;
+    min-height: 37.5rem;
     margin: 0 auto 1.2rem auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-supported-width), 1fr));
 }
 
 .info-box {
     margin: auto;
-    margin-left: 100px;
+    margin-left: 6.3rem;
     border-radius: 0.9rem;
     padding: 3.1rem;
     max-height: 100%;
@@ -231,8 +232,8 @@ ul {
     color: #FFF;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 950px (59.4rem) wide and down */
+@media screen and (max-width: 59.4rem) {
     .hero-container {
         background: none;
         background-color: #FFF;
@@ -277,7 +278,7 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     text-align: center;
-    padding: 0px 50px;
+    padding: 0 3.1rem;
 }
 
 .about-content-col {
@@ -299,8 +300,8 @@ ul {
     grid-row-end: 2;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 950px (59.4 rem) wide and down */
+@media screen and (max-width: 59.4rem) {
     .about-content {
         grid-template-columns: 1fr;
     }
@@ -312,16 +313,16 @@ ul {
 
 /* Services Section */
 .section-container {
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
 }
 
 .services-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 15px;
+    gap: 1rem;
     text-align: center;
-    padding: 0px 50px;
+    padding: 0 3.1rem;
 }
 
 .services-content-image {
@@ -333,14 +334,14 @@ ul {
     align-self: center;
     align-content: center;
     margin: auto;
-    height: 250px;
-    width: 250px;
+    height: 15.6rem;
+    width: 15.6rem;
     background: url('../images/natural-clean-icon-green.png') no-repeat center center;
     background-size: contain;
 }
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 950px (59.4rem) wide and down */
+@media screen and (max-width: 59.4rem) {
     .services-content-image {
         display: none;
     }
@@ -354,16 +355,16 @@ ul {
 /* Products Section */
 
 .section-container {
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
 }
 
 .products-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-supported-width), 1fr));
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 150px;
+    gap: 9.4rem;
     text-align: center;
-    padding: 0px 50px;
+    padding: 0 3.1rem;
 }
 
 .products-content-col {
@@ -375,7 +376,7 @@ ul {
     align-self: center;
     align-content: center;
     margin: auto;
-    max-width: 300px;
+    max-width: 18.8rem;
 
 }
 
@@ -384,8 +385,8 @@ ul {
 }
 
 
-/* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* For medium screen sizes from 950px (59.4rem) wide and down */
+@media screen and (max-width: 59.4rem) {
 
     .products-content {
         grid-template-columns: 1fr;
@@ -396,7 +397,7 @@ ul {
 /* FAQ Section */
 
 .faq-content-col {
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
 }
 
 .question-header {
@@ -405,7 +406,7 @@ ul {
     cursor: pointer;
     padding: 1rem 2rem;
     background-color: #738B56;
-    border-radius: 20px;
+    border-radius: 1.3rem;
 }
 
 .question-title {
@@ -421,7 +422,7 @@ ul {
 }
 
 .close-section img {
-    width: 25px;
+    width: 1.6rem;
     height: auto;
 }
 
@@ -432,10 +433,10 @@ ul {
 .answer-section {
     line-height: 1.5;
     background: #F2F2F2;
-    border-radius: 20px;
+    border-radius: 1.3rem;
     max-height: 0;
     overflow: hidden;
-    padding: 0rem 2rem;
+    padding: 0 2rem;
     margin: 0;
     transition: max-height 0.2s ease-out, margin 0.2s ease-out;
 }
@@ -445,23 +446,23 @@ ul {
 }
 
 .faq-content-col.active .answer-section {
-    max-height: 700px;
-    margin: 20px 0;
+    max-height: 43.8rem;
+    margin: 1.3rem 0;
 }
 
 /* Contact Section */
 .section-container {
-    padding-bottom: 100px;
+    padding-bottom: 6.3rem;
     text-align: center;
 }
 
 .contact-content {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-supported-width), 1fr));
     grid-template-rows: repeat(auto-fit, 1fr);
-    gap: 15px;
+    gap: 1rem;
     text-align: left;
-    padding: 0px 10px;
+    padding: 0 0.6rem;
 }
 
 .contact-content-col {
@@ -495,14 +496,14 @@ ul {
 .contact-content-text-header {
     text-align: center;
     color: #000;
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
 }
 
 .text-input {
     color: var(--primary-color);
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
+    height: 1.6rem;
+    margin: 5px 0 1.6rem 0;
     border: 1px solid #000;
     border-radius: 2px;
 }
@@ -520,7 +521,7 @@ ul {
 
 .send-message-cta {
     border-radius: 2px;
-    padding: 10px 20px 10px 22px;
+    padding: 0.6rem 1.3rem;
     text-align: center;
     font-size: 100%;
     background-color: var(--primary-color);
@@ -543,31 +544,31 @@ ul {
 /* Footer Section */
 
 .footer-container {
-    padding-bottom: 20px;
+    padding-bottom: 1.3rem;
 }
 
 .footer-content {
     display: grid;
-    grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
-    gap: 15px;
+    grid-template-rows: repeat(auto-fit, minmax(3.1rem, 1fr));
+    gap: 1rem;
     text-align: center;
 }
 
 .footer-logo img {
     max-width: 30%;
-    min-width: 300px;
+    min-width: 18.8rem; 
 }
 
 .footer-cols-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-supported-width), 1fr));
 }
 
 .footer-content-col {
     align-self: center;
     align-content: center;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
     height: 100%;
 }
 
@@ -592,5 +593,5 @@ ul {
 }
 
 .social-links-content h3 {
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 }
