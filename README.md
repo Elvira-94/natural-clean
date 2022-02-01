@@ -68,6 +68,8 @@ On the right side of the navigation bar, links to all sections of the site are p
 
 The goal of the responsive burger menu is to provide a clutter free presentation of the site to the client. On a smaller screen size, having many navigation links could be distracting and reduce the clean aesthetic of the site.
 
+The burger menu is implemented using only HTML and CSS. It is done so by representing the burger menu icon as a HTML form checkbox, with an image of the burger menu. Once clicked, the dropdown menu of navigation links is shown.
+
 <details><summary><b>Navigation Bar Desktop Image</b></summary>
 
 <p align="center"><img src="docs/images/nav-bar-desktop-image.png" width="80%" height="80%" alt="Navbar desktop image"></p></details><br />
