@@ -41,6 +41,8 @@ The Natural Clean website is a one-page website with 6 navigation links for the 
 
 ### Colour Scheme
 
+The final colour scheme chosen is one based on a darker green, lighter green, and off-white. This colour palette gives off a fresh, clean and eco-friendly atmosphere to the website, which Natural Clean hopes to pass on to the user. 
+
 ![Colour palette of 4 colours](assets/images/README/colour-palette-of-5-colours.jpeg)
 
 ![Colour scheme](assets/images/README/adobe-color-scheme.png)
