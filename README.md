@@ -35,6 +35,8 @@ Natural Clean allows people to quickly and easily arrange to have their property
 
 ## Site Structure
 
+The Natural Clean website is a one-page website with 6 navigation links for the visitor to use. The Home Page is the default loading page, and the sections following it are the About, Services, Products, FAQ's and Contact. The pages are all accessible primarily through the navigation menu, but the user can also press on the burger menu located on both the right or left side of the screen depending on which smaller device they're using which will allow them to view a dropdown menu of the site and visit these sections in the order listed above. This will help the user have the option of not scrolling down the website to visit these sections on different devices.
+
 ## Design Choices
 
 ### Colour Scheme
