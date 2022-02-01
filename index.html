@@ -29,7 +29,12 @@
                             alt="The Natural Clean Logo consisting of the text 'Natural Clean' to the right of an icon of a green house with a leaf overlaying it"></a>
                 </div>
                 <label for="nav-check" class="nav-toggler">
-                    <span></span>
+                    <!-- 
+                        This label text is to meet lighthouse accessibility requirements 
+                        - however the checkbox input is not visibile on site.
+                        This label will not be shown either,
+                    -->
+                    <span>Label:</span>
                 </label>
                 <input type="checkbox" id="nav-check">
                 <nav class="nav">

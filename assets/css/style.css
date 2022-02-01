@@ -127,7 +127,9 @@ ul {
     width: 1.2rem;
     background-color: var(--primary-color);
     position: relative;
+    color: rgba(255,255,255,0);
 }
+
 
 .nav-toggler span::before,
 .nav-toggler span::after {
