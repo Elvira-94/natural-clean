@@ -574,6 +574,11 @@ ul {
     color: var(--primary-color);
 }
 
+.social-links li a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .social-links-content h3 {
     padding-bottom: 15px;
 }
