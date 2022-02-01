@@ -1,5 +1,5 @@
 
-<p align="center"><img src="assets/images/natural-clean-logo-horizontal.png" width="50%" height="50%" alt="Thank you for visiting my README"></p>
+<p align="center"><img src="docs/images/natural-clean-logo-horizontal.png" width="50%" height="50%" alt="Thank you for visiting my README"></p>
 
 # Natural Clean
 
@@ -48,9 +48,9 @@ The Natural Clean website is a one-page website with 6 navigation links for the 
 
 The final colour scheme chosen is one based on a darker green, lighter green, and off-white. This colour palette gives off a fresh, clean and eco-friendly atmosphere to the website, which Natural Clean hopes to pass on to the user. 
 
-<p align="center"><img src="assets/readme-images/colour-palette-of-5-colours.jpeg" width="50%" height="50%" alt="Colour palette"></p>
+<p align="center"><img src="docs/images/colour-palette-of-5-colours.jpeg" width="50%" height="50%" alt="Colour palette"></p>
 
-<p align="center"><img src="assets/readme-images/adobe-color-scheme.png" width="30%" height="30%" alt="Colour Scheme"></p>
+<p align="center"><img src="docs/images/adobe-color-scheme.png" width="30%" height="30%" alt="Colour Scheme"></p>
 
 ### Typography
 
@@ -70,15 +70,15 @@ The goal of the responsive burger menu is to provide a clutter free presentation
 
 <details><summary><b>Navigation Bar Desktop Image</b></summary>
 
-<p align="center"><img src="assets/readme-images/nav-bar-desktop-image.png" width="80%" height="80%" alt="Navbar desktop image"></p></details><br />
+<p align="center"><img src="docs/images/nav-bar-desktop-image.png" width="80%" height="80%" alt="Navbar desktop image"></p></details><br />
 
 <details><summary><b>Navigation Bar Responsive Image</b></summary>
 
-<p align="center"><img src="assets/readme-images/nav-bar-responsive-image.jpeg" width="80%" height="80%" alt="Navbar responsive image"></p></details><br />
+<p align="center"><img src="docs/images/nav-bar-responsive-image.jpeg" width="80%" height="80%" alt="Navbar responsive image"></p></details><br />
 
 <details><summary><b>Navigation Bar Responsive Dropdown Menu Image</b></summary>
 
-<p align="center"><img src="assets/readme-images/nav-bar-responsive-open.png" width="50%" height="50%" alt="Navbar responsive dropdown menu image"></p></details><br />
+<p align="center"><img src="docs/images/nav-bar-responsive-open.png" width="50%" height="50%" alt="Navbar responsive dropdown menu image"></p></details><br />
 
 
 - __The Landing Page Image__
