@@ -127,11 +127,13 @@ The Contact Section is fully responsive and places the map image below the conta
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95103447/151997801-f2507f24-3494-4326-b709-610f0d9cd8d2.png" width="30%" height="30%" alt="Contact Section Responsive image"></p></details><br />
 
-
-
-
-
 - __The Footer__
+
+The Footer contains quick links, social media links and and the company logo with opening hours text below it. To improve the user experience, the quick links will quickly redirect the user back to the relevant pages sections. In addition the social media links open in a seperate tab. 
+
+The social links to Facebook, Twitter, Instagram and Youtube are there for educational purposes of this project and will take the user to the home page of each respected site. If this site were to be published outside of this project, they would be altered to re-direct the user to the appropriate Natural Clean social media pages.
+
+Finally the company logo itself also takes the user back to the home page and they can easily see what hours the business operates for which was an no-brainer when thinking of the users experience being a positive one.
 
 ### Features Left to Implement
 
