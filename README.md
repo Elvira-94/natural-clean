@@ -133,15 +133,15 @@ To demploy the site on GitHub pages, the following steps should be followed:
 
 2. Under your repository name, click **Settings**.
 
-![alt](assets/images/README/github-screenshot-1.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993205-32179f28-6725-4d68-a044-4c56185ae7fa.png" width="50%" height="50%" alt="Github screenshot image 1"></p></details><br />
 
 3. Click **Pages**, in the left sidebar.
 
-![alt](assets/images/README/github-screenshot-2.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993207-b27395b5-9130-441c-ab37-2abc9f333784.png" width="50%" height="50%" alt="Github screenshot image 2"></p></details><br />
 
 4. Under **"GitHub Pages"**, select a publishing source from the None or Branch drop-down menu box. Then click **Save**.
 
-![alt](assets/images/README/github-screenshot-3.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993208-9dcc9884-0d00-4158-85f9-dbb99b37deb2.png" width="50%" height="50%" alt="Github screenshot image 3"></p></details><br />
 
 5. The page will automatically refresh, indicating that the website has now been launched.
 
@@ -157,11 +157,11 @@ To clone this site's project from GitHub, the following steps should be followed
 
 2. Above your site's files, click the **Code** button.
 
-![alt](assets/images/README/github-screenshot-4.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993212-2a98e8d3-4a09-4a5c-bd63-056fa97222ba.png" width="50%" height="50%" alt="Github screenshot image 4"></p></details><br />
 
 3. To clone your repository ussing HTTPS, click the copy clipboard symbol under "Clone with HTTPS".
 
-![alt](assets/images/README/github-screenshot-5.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/95103447/151993215-b3be37c4-bdcb-4696-96be-06b8777b1d41.png" width="50%" height="50%" alt="Github screenshot image 5"></p></details><br />
 
 4. Open your local IDE terminal.
 
