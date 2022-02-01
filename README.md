@@ -1,4 +1,5 @@
-![Natural Clean logo](assets/images/Natural_Clean_Logo_Horizontal.png)
+
+<img src="assets/images/natural-clean-logo-horizontal.png" width="300px">
 
 # Natural Clean
 
