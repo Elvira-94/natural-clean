@@ -258,54 +258,79 @@ Finally the company logo itself also takes the user back to the home page and th
 
 * ## Responsiveness Testing
 
-    * Responsiveness of the site was tested manually, using both [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/). The site has also been tested on multiple mobile devices physically also by friends and family. 
+    * Responsiveness of the site was tested manually, using both [Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/), [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Am I responsive](http://ami.responsivedesign.is/). The site has also been tested on multiple mobile devices physically also by friends and family. 
 
-* ## Manual Testing
+* ## Functionality Testing
 
-    * Throughout development, manual tests were extensively carried out: 
+    * Cross browser testing of the site was also conducted via [lambdatest](https://www.lambdatest.com/). Browsers tested include: Google Chrome, Mozilla Firefox, Safari and Microsoft EDGE.
 
-        * Are we viewing a fresh version of the site
-            * Task: Refresh the page ensuring cache is refreshed
-            * Expected Result: A non-cached version of the page has loaded for testing
+    * 1024x768; 1280x720; 1280x800; 1280x1024; 1366x768; 1440x900; 1600x1200; 1680x1050; 1920x1080; 1920x1200; 2048x1536; 2560x1440 were resolutions that were all evaluated.
+
+    * Devices used in this testing are as follows: iPhone 13 Pro Max, iPhone 13/12/11/SE, iPad Pro 11", iPad Mini, iPad Retina, Samsung Galaxy S20/S5/S6/S7, Macbook Pro 16", Macbook Pro 15", Macbook Air 13", Acer Swift, Acer Aspire 3.
+
+* ## Manual Testing to Achieve User Story Goals
+
+    * Throughout development, manual tests were extensively carried out to make sure that the user's goals were met: 
+
+        * Are we viewing a fresh version of the site?
+            * Task: Refresh the page ensuring cache is refreshed.
+            * Expected Result: A non-cached version of the page has loaded for testing.
 
         * Are all navigation links working as expected?
-            * Task: Click on each navigation link on the site
+            * Task: Click on each navigation link on the site.
             * Expected Result: You are brought to the correct location on the page. In supported browsers, smooth scrolling takes place. 
 
         * Are all images loading correctly?
-            * Task: Look at each image on the site
-            * Expected Result: The image is displaying on screen, instead of a box indicating a bad reference/url
+            * Task: Look at each image on the site.
+            * Expected Result: The image is displaying on screen, instead of a box indicating a bad reference/url.
         
         * Are all images located in the correct location?
-            * Task: Look at each image on the site
-            * Expected Result: Each image is located exactly as expected and is not breaching any parent divs or containers
+            * Task: Look at each image on the site.
+            * Expected Result: Each image is located exactly as expected and is not breaching any parent divs or containers.
 
         * Is all text content positioned correctly? 
-            * Task: Look at each element of text on the screen
+            * Task: Look at each element of text on the screen.
             * Expected Result: Each text element is locacted and centered exactly as expected, and is not breaching any parent divs or containers. 
 
         * Is all text content worded correctly?
-            * Task: Read all text on the site
-            * Expected Result: The text on the site is worded as expected 
+            * Task: Read all text on the site.
+            * Expected Result: The text on the site is worded as expected. 
 
         * Is each section of the site responding as expected for different screen sizes?
-            * Task: Open Google Chrome Dev Tools and set the device screen size from small to large sizes, and back to small
-            * Expected Result: The elements of the site respond as expected to changes in device screen width
+            * Task: Open Google Chrome Dev Tools and set the device screen size from small to large sizes, and back to small.
+            * Expected Result: The elements of the site respond as expected to changes in device screen width.
 
         * Is the contact form requiring the correct information when the submit button is pressed?
-            * Task: Click the submit button without entering required info
-            * Expected Result: The form will indicate that mandatory information is missing
+            * Task: Click the submit button without entering required info.
+            * Expected Result: The form will indicate that mandatory information is missing.
 
-            * Task: Click the submit button after entering required info
-            * Expected Result: The form will proceed as expected
+            * Task: Click the submit button after entering required info.
+            * Expected Result: The form will proceed as expected.
 
         * Is the contact form validating email addresses as expected?
-            * Task: Click the submit button after entering an invalid email address (missing '@gmail.com')
-            * Expected Result: The form will indicate the error in the email field
+            * Task: Click the submit button after entering an invalid email address (missing '@gmail.com').
+            * Expected Result: The form will indicate the error in the email field.
 
-            * Task: Click the submit button after entering an invalid email address (missing '.com')
-            * Expected Result: The form will indicate the error in the email field
+        * Is the submit button working as intended?
+            * Task: Click the submit button after entering an invalid email address (missing '.com').
+            * Expected Result: The form will indicate the error in the email field.  
 
+# Bug Stories
+
+* CSS not displayed 
+    * Problem: CSS styling not loading upon first deployment.
+    * Cause: Gitpod works with relative files, so absolute files that were used in the code e.g. /assets/images.. are not supported.
+    * Resolution: Remove forward slash '/' from the '/assets/images/file.png' to '../images/file.png' to make file relative which fixed this issue.
+
+* Overlapping hero image
+    * Problem: Hero image on homepage overlapped.
+    * Cause: Background hero image coded incorrectly. 
+    * Resolution: By assigning the background hero image with a 'no-repeat right' followed by a min-height of 37.5rem and margin of 0 auto 1.2rem auto fixed this issue.
+
+* Site not refreshed/updated
+    * Problem: Site could not update saved changes or refresh page to code.
+    * Cause: Gitpod had an temporary issue which stopped workspaces from updating for users across the EU.
+    * Resolution: Gitpod fixed this issue after a few hours and site refreshed/saved changes as expected.
 
 # Unfixed Bugs
 
@@ -315,6 +340,10 @@ Finally the company logo itself also takes the user back to the home page and th
       This is because the burger menu is implemented as a checkbox input element, styled to like a burger menu. 
 
       If I had more knowledge on Javascript, I would liked to have done a Javascript implementation of a burger menu. 
+
+* Footer content aligning as two columns when minimising site.
+
+    * I would of liked the footer section to align the three footer columns on the site as one column not two columns when minimizing the site on a device to make it look more inform. I would of liked to have done another CSS media query implementation to achieve a nicer looking footer when the site would be minimized.
 
 # Deployment
 
