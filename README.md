@@ -190,6 +190,9 @@ Finally the company logo itself also takes the user back to the home page and th
 * [Favicon](https://favicon.io/) - to create the favicon.
 * [WCAG](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en) - to test the contrast and accessibility of the website using an extension installed on the Google browser.
 * [a11y](https://color.a11y.com/Contrast/) - to test the contrast and accessibility of the website.
+* [Am I responsive](http://ami.responsivedesign.is/) to test the responsiveness of the site.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) to test the quality of the website.
+* [LambdaTest](https://www.lambdatest.com/) - to test cross-browsing on multiple devices.
 * [VS Code](https://code.visualstudio.com/) - to test the local deployment of the website.
 
 
@@ -315,35 +318,35 @@ Finally the company logo itself also takes the user back to the home page and th
             * Task: Click the submit button after entering an invalid email address (missing '.com').
             * Expected Result: The form will indicate the error in the email field.  
 
-# Bug Stories
+* ## Bug Stories
 
-* CSS not displayed 
-    * Problem: CSS styling not loading upon first deployment.
-    * Cause: Gitpod works with relative files, so absolute files that were used in the code e.g. /assets/images.. are not supported.
-    * Resolution: Remove forward slash '/' from the '/assets/images/file.png' to '../images/file.png' to make file relative which fixed this issue.
+    * CSS not displayed 
+        * Problem: CSS styling not loading upon first deployment.
+        * Cause: Gitpod works with relative files, so absolute files that were used in the code e.g. /assets/images.. are not supported.
+        * Resolution: Remove forward slash '/' from the '/assets/images/file.png' to '../images/file.png' to make files relative which fixed this issue.
 
-* Overlapping hero image
-    * Problem: Hero image on homepage overlapped.
-    * Cause: Background hero image coded incorrectly. 
-    * Resolution: By assigning the background hero image with a 'no-repeat right' followed by a min-height of 37.5rem and margin of 0 auto 1.2rem auto fixed this issue.
+    * Overlapping hero image
+        * Problem: Hero image on homepage overlapped.
+        * Cause: Background hero image coded incorrectly. 
+        * Resolution: By assigning the background hero image with a 'no-repeat right' followed by a min-height of 37.5rem and margin of 0 auto 1.2rem auto fixed this issue.
 
-* Site not refreshed/updated
-    * Problem: Site could not update saved changes or refresh page to code.
-    * Cause: Gitpod had an temporary issue which stopped workspaces from updating for users across the EU.
-    * Resolution: Gitpod fixed this issue after a few hours and site refreshed/saved changes as expected.
+    * Site not refreshed/updated
+        * Problem: Site could not update saved changes or refresh page to code.
+        * Cause: Gitpod had an temporary issue which stopped workspaces from updating for users across the EU.
+        * Resolution: Gitpod fixed this issue after a few hours and site refreshed/saved changes as expected.
 
-# Unfixed Bugs
+* ## Unfixed Bugs
 
-* CSS Implementation of Burger Menu resulting in contrast errors from contrast testing tooling
+    * CSS Implementation of Burger Menu resulting in contrast errors from contrast testing tooling
 
-    * As mentioned in the testing section, when undergoing contrast testing for the site, an error shows from a span element which is used to style the burger menu for the site.
-      This is because the burger menu is implemented as a checkbox input element, styled to like a burger menu. 
+        * As mentioned in the testing section, when undergoing contrast testing for the site, an error shows from a span element which is used to style the burger menu for the site.
+        This is because the burger menu is implemented as a checkbox input element, styled to like a burger menu. 
 
-      If I had more knowledge on Javascript, I would liked to have done a Javascript implementation of a burger menu. 
+        If I had more knowledge on Javascript, I would liked to have done a Javascript implementation of a burger menu. 
 
-* Footer content aligning as two columns when minimising site.
+    * Footer content aligning as two columns when minimising site.
 
-    * I would of liked the footer section to align the three footer columns on the site as one column not two columns when minimizing the site on a device to make it look more inform. I would of liked to have done another CSS media query implementation to achieve a nicer looking footer when the site would be minimized.
+        * I would of liked the footer section to align the three footer columns on the site as one column not two columns when minimizing the site on a device to make it look more inform. I would of liked to have done another CSS media query implementation to achieve a nicer looking footer when the site would be minimized.
 
 # Deployment
 
