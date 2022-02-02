@@ -30,6 +30,7 @@ You can view the live site here - <a href="https://elvira-94.github.io/natural-c
 * As a user, I want to be able to quickly identify what kind of cleaning materials are used so that I recieve an eco-friendly service.
 * As a user, I want to be able to contact the company for a cleaning quote or for more information. 
 * As a user, I want to view the company's opening hours so that I can plan to make an appointment for my property to be cleaned.
+* As a user, I want to be able to access the company's social media links from the site.
 
 ## Site Structure
 
@@ -47,7 +48,7 @@ The final colour scheme chosen is one based on a darker green, lighter green, an
 
 ### Typography
 
-For this website, one main font was used throughout. To give a clean modern feel, ['Questrial'](https://fonts.google.com/specimen/Questrial?query=questrial#standard-styles) designed by Joe Prince & Laura Meseguer was used for both the body text and the headings. This font defaults back to to 'Arial, Helvetica, sans-serif.' The Questrial typeface have an easy-to-read feel to them, and the full circle curves on many characters adds a refreshingly seamless look to the design while still keeping it in line with the clean style of the site by utilising letter spacing and line heights.
+For this website, one main font was used throughout. To give a clean modern feel, ['Questrial'](https://fonts.google.com/specimen/Questrial?query=questrial#standard-styles) designed by Joe Prince & Laura Meseguer was used for both the body text and the headings. This font defaults back to to 'Arial, Helvetica, sans-serif.' The Questrial typeface has an easy-to-read feel to them, and the full circle curves on many characters adds a refreshingly seamless look to the design while still keeping it in line with the clean style of the site by utilising letter spacing and line heights.
 
 ## Features
 
@@ -57,11 +58,11 @@ For this website, one main font was used throughout. To give a clean modern feel
 
 The fully responsive navigation bar includes links to all sections of the site. On the left side of the navigation bar, the company logo is presented, which itself links to the homepage of the site.
 
-On the right side of the navigation bar, links to all sections of the site are presented to the client. If the client's screen size is using a screen size less than 950 pixels in width, then a burger menu is presented to the client, allowing them to view a dropdown menu once selected which will provide links to the site's sections.
+On the right side of the navigation bar, links to all sections of the site are presented to the client. If the client's screen size is using a screen size less than 59.4rem (950 pixels) in width, then a burger menu is presented to the client, allowing them to view a dropdown menu once selected which will provide links to the site's sections.
 
 The goal of the responsive burger menu is to provide a clutter free presentation of the site to the client. On a smaller screen size, having many navigation links could be distracting and reduce the clean aesthetic of the site.
 
-The burger menu is implemented using only HTML and CSS. It is done so by representing the burger menu icon as a HTML form checkbox, with an image of the burger menu. Once clicked, the dropdown menu of navigation links is shown.
+The burger menu is implemented using only HTML and CSS. It is done so by representing the burger menu icon as a HTML input checkbox, with the burger menu structured from CSS. Once clicked, the dropdown menu of navigation links is shown.
 
 <details><summary><b>Navigation Bar Desktop Image</b></summary>
 
@@ -80,7 +81,7 @@ The burger menu is implemented using only HTML and CSS. It is done so by represe
 
 The landing page includes a photograph of a green leaf, with text overlay providing the client with a brief introduction to what Natural Clean is. Within this text overlay, there is also a call to action button provided, allowing the user to navigate to the contact form, allowing them to quickly book our service.
 
-The intention of the green leaf hero image is to show to the client Natural Clean's focus on being environmentally friendly, while aslso staying simple enough to keep a clean site aesthetic.
+The intention of the green leaf hero image is to show to the client Natural Clean's focus on being environmentally friendly, while also staying simple enough to keep a clean site aesthetic.
 
 <details><summary><b>Landing Page Image</b></summary>
 
@@ -118,7 +119,7 @@ This section will be valuable to the user to see firsthand what natural cleaning
 
 - __FAQ Section__
 
-The FAQ section will answer some of the more common questions that Natural Clean receive from their customers. The questions will be displayed as a list of accordion styled items, and once clicked, the answer to the question that was clicked, will show on the screen under the question. If clicked again, the answer will revert back to being hidden. 
+The FAQ section will answer some of the more common questions that Natural Clean receive from their customers. The questions will be displayed as a list of accordion styled items, and once clicked, the answer to the question that was clicked will show on the screen under the question. If clicked again, the answer will revert back to being hidden. 
 
 The value of this section is to provide Natural Clean's users with answers to questions they may have before they need to ask.
 
@@ -156,26 +157,26 @@ Finally the company logo itself also takes the user back to the home page and th
 
 * ### Log-in
 
-* Allow the user to log in and create an account on the website. 
-* The log in option would be located in the navigation bar and would redirect the user to a new page where they could enter their details and register an account.
+    Allow the user to log in and create an account on the website. 
+    The log in option would be located in the navigation bar and would redirect the user to a new page where they could enter their details and register an account.
 
 * ### Testimonial Section
 
-* A Testimonial section to highlight positive feedback regarding our services.
-* This would be shown in the form of multiple 'cards' and would include a quote from the user, the user's name and a photograph of the user if they choose to provide one.
+    A Testimonial section to highlight positive feedback regarding our services.
+    This would be shown in the form of multiple 'cards' and would include a quote from the user, the user's name and a photograph of the user if they choose to provide one.
 
 * ### Live Chat Window
 
-* A window where a user can initiate a live chat with a staff member of Natural Clean. This allows the user to get instant feedback on any questions they may have or to book or modify a cleaning appointment instantly.
+    A window where a user can initiate a live chat with a staff member of Natural Clean. This allows the user to get instant feedback on any questions they may have or to book or modify a cleaning appointment instantly.
 
 * ### Newsletter Section
 
-* A basic newsletter section that allows the user to opt-in to monthly or bi-weekly emails from Natural Clean about the greatest cleaning hacks, special promotions and the business in general.
+    A basic newsletter section that allows the user to opt-in to monthly or bi-weekly emails from Natural Clean about the greatest cleaning hacks, special promotions and the business in general.
 
 * ### Cleaning Mobile App
 
-* A company cleaning app to download on iOS or android would be located in the navigation bar.
-* This would redirect the user to a new page where they could download the app on their phone and register or log-in to schedule bookings via the app themselves.
+    A company cleaning app to download on iOS or android would be located in the navigation bar.
+    This would redirect the user to a new page where they could download the app on their phone and register or log-in to schedule bookings via the app themselves.
 
 # Technologies Used
 
@@ -198,19 +199,19 @@ Finally the company logo itself also takes the user back to the home page and th
 
     * The Natural Clean website has undergone extensive testing both manually and via testing tools. All the code has been validated via the [W3C HTML Validator](https://validator.w3.org/), the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and the [JSHint Validator](https://jshint.com/). 3 minor errors were found on the index.html when tested on [HTML Validation](https://validator.w3.org/) but were fixed immediately and documented below.<br /><br />
 
-* ### HTML Validation Image With Errors
+    ### HTML Validation Image With Errors
 
     ![HTML Validation](docs/images/html-validation-errors.png)
 
-* ### HTML Validation Image
+    ### HTML Validation Image
 
     ![HTML Validation](docs/images/html-validation.png)
 
-* ### CSS Validation Image
+    ### CSS Validation Image
 
     ![CSS Validation](docs/images/css-validation.png)
 
-* ### JS Validation Image
+    ### JS Validation Image
 
     ![JS Validation](docs/images/js-validation.png)
 
@@ -317,7 +318,7 @@ Finally the company logo itself also takes the user back to the home page and th
 
 # Deployment
 
-To demploy the site on GitHub pages, the following steps should be followed:
+To deploy the site on GitHub pages, the following steps should be followed:
 
 1. On your Github page, go to your site's repository.
 
